@@ -1,0 +1,64 @@
+<html>
+
+<body>
+
+        <style>
+                .total{
+                        color: green;
+                }
+                .payment {
+                        background-color: whitesmoke;
+                        border: 2px solid black;
+                        border-radius: 40px;
+                        color: blue;
+                        padding: 5px 10px;
+                        text-align: center;
+                        display: inline-block; 
+                        font-size: 17px;
+                        
+                        cursor: pointer;
+                }
+        </style>
+
+        <head>
+                <title> Cart </title>
+                <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+                <header>
+                        <img src="logo.png">
+                        <nav>
+                                <ul>
+                                        <li><a href="../home/html/index.html">Home</a></li>
+                                        <li><a href="../products/main.html">products</a></li>
+                                        <li><a href="../cart/main.html">My Cart</a></li>
+                                        <li><a href="../login/main.html">Login/Sign-up</a></li>
+                                </ul>
+                        </nav>
+                </header>
+                <section class="section-products">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-md-6 col-lg-4 col-xl-3">
+                                                <div id="product-2" class="single-product">
+                                                        <div class="part-1">
+                                                                <span class="discount">15% off</span>
+                                                        </div>
+                                                        <div class="part-2">
+                                                                <h3 class="product-title">Trimmer </h3>
+                                                                <h4 class="product-old-price">Rs 3999</h4>
+                                                                <h4 class="product-price">Rs 2999</h4>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        
+                </section>
+                <h4 class="Total">Cart Total: 2999/-    <br>   + delivery charges. Calculated at Checkout</h4>
+                <a href='../payment/main.html'>
+                        <button class="payment">
+                                Checkout
+                        </button>
+                </a>
